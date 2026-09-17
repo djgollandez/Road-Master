@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>local.personal.chatgpt.doh.settings.v2</string>
+			<key>PayloadUUID</key>
+			<string>E4B1950C-DB94-4855-BAC8-2F042949DA04</string>
+			<key>PayloadDisplayName</key>
+			<string>ChatGPT DNS (DoH)</string>
+			<key>PayloadDescription</key>
+			<string>Encrypted DNS over HTTPS for ChatGPT/OpenAI-related domains only.</string>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://xbox-dns.ru/dns-query</string>
+				<key>SupplementalMatchDomains</key>
+				<array>
+					<string>openai.com</string>
+					<string>chatgpt.com</string>
+					<string>ct.sendgrid.net</string>
+					<string>intercom.io</string>
+					<string>intercomcdn.com</string>
+					<string>oaistatic.com</string>
+					<string>oaiusercontent.com</string>
+					<string>oaistatsig.com</string>
+					<string>cdn.openaimerge.com</string>
+					<string>cdn.workos.com</string>
+					<string>challenges.cloudflare.com</string>
+					<string>forwarder.workos.com</string>
+					<string>humb.apple.com</string>
+					<string>images.workoscdn.com</string>
+					<string>js.stripe.com</string>
+					<string>rum.browser-intake-datadoghq.com</string>
+					<string>setup.workos.com</string>
+					<string>workos.imgix.net</string>
+					<string>o207216.ingest.sentry.io</string>
+					<string>o33249.ingest.sentry.io</string>
+				</array>
+				<key>AllowFailover</key>
+				<false/>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>ChatGPT DNS (DoH)</string>
+	<key>PayloadIdentifier</key>
+	<string>local.personal.chatgpt.doh.profile.v2</string>
+	<key>PayloadOrganization</key>
+	<string>Personal</string>
+	<key>PayloadDescription</key>
+	<string>Split DNS for ChatGPT/OpenAI through XBox DNS DoH; all other DNS remains on the normal system resolver.</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>40F1005A-E0C3-408C-BCA5-0DB202563405</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+</dict>
+</plist>
